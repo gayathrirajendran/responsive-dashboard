@@ -1,0 +1,16 @@
+select {
+  min-width: 120px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  // grid-auto-rows: minmax(100px, auto);
+}
+
+@media screen and (max-width: 767px) {
+  .v-space {
+    margin-block: 10px;
+  }
+}

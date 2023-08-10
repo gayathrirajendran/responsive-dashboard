@@ -1,0 +1,16 @@
+<div>
+  <div class="py-2 d-sm-flex justify-content-between align-items-center">
+    <select matNativeControl [(ngModel)]="selectedFilter" class="v-space">
+      <!-- <option value="" selected></option> -->
+      <option *ngFor="let filter of filters" [value]="filter.value">
+        {{ filter.name }}
+      </option>
+    </select>
+
+    <app-search (searchTermChange)="searchCardItems($event)"></app-search>
+  </div>
+
+  <div class="py-2 card-container">
+    <app-card *ngFor="let cardItem of cardItems"></app-card>
+  </div>
+</div>

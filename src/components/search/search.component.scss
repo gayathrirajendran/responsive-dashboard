@@ -1,0 +1,17 @@
+.search {
+  background-color: white;
+  height: 40px;
+  padding-inline: 7px;
+  border: 1px solid rgb(118, 118, 118);
+  .search-icon {
+    height: 19px;
+    width: 19px;
+    font-size: 19px;
+  }
+}
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  flex: 1;
+}

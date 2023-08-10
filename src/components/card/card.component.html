@@ -1,0 +1,20 @@
+<mat-card>
+    <ng-container *ngIf="status === 'loading'">
+      <ng-container *ngTemplateOutlet="loading"></ng-container>
+    </ng-container>
+</mat-card>
+  
+
+<ng-template #loading>
+  <div class="loading-effect">
+    <div class="d-flex gap-2 align-items-center">
+      <div class="image"></div>
+      <div class="heading"></div>
+    </div>
+    <div class="desc">
+      <div class="desc-line"></div>
+      <div class="desc-line"></div>
+      <div class="desc-line"></div>
+    </div>
+  </div>
+</ng-template>

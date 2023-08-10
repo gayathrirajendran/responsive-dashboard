@@ -1,0 +1,13 @@
+.tagline {
+  font-size: 52px;
+  line-height: 64px;
+  margin-block: 32px;
+  padding-inline: calc(var(--bs-gutter-x) * 0.5);
+  text-wrap: balance;
+}
+
+.banner {
+  background-image: url(https://softwareag.scene7.com/is/image/softwareagprod/hero-01-desktop?wid=2430&dpr=off);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
