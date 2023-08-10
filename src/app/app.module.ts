@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
-import { SearchModule } from 'src/components/search/search.module';
-import { BannerModule } from 'src/components/banner/banner.module';
-import { CardListModule } from 'src/components/card-list/card-list.module';
+import { SearchModule } from '../components/search/search.module';
+import { BannerModule } from '../components/banner/banner.module';
+import { CardListModule } from '../components/card-list/card-list.module';
 
 @NgModule({
   declarations: [
